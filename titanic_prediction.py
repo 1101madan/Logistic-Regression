@@ -10,11 +10,11 @@ def user_input_fetures():
   st_sibsp = st.sidebar.number_input('Number of siblings/spouses')
   st_parch = st.sidebar.number_input('Number of parents/children')
   st_fare = st.sidebar.number_input('Fare')
-  st_sex_male = st.sidebar.number_input('Male(enter '1' if yes or '0')')
-  st_sex_female = st.sidebar.number_input('Female(enter '1' if yes or '0')')
-  st_embarked_c = st.sidebar.number_input('Embarked at C(enter '1' if yes or '0')')
-  st_embarked_q = st.sidebar.number_input('Embarked at Q(enter '1' if yes or '0')')
-  st_embarked_s = st.sidebar.number_input('Embarked at S(enter '1' if yes or '0')')
+  st_sex_male = st.sidebar.number_input("Male(enter '1' if yes or '0')")
+  st_sex_female = st.sidebar.number_input("Female(enter '1' if yes or '0')")
+  st_embarked_c = st.sidebar.number_input("Embarked at C(enter '1' if yes or '0')")
+  st_embarked_q = st.sidebar.number_input("Embarked at Q(enter '1' if yes or '0')")
+  st_embarked_s = st.sidebar.number_input("Embarked at S(enter '1' if yes or '0')")
   data = {
       'Pclass':st_pclass,
       'Age':st_age,

@@ -21,11 +21,11 @@ def user_input_fetures():
       'SibSp':st_sibsp,
       'Parch':st_parch,
       'Fare':st_fare,
-      'Male':st_sex_male,
-      'Female':st_sex_female,
-      'Embarked at C':st_embarked_c,
-      'Embarked at Q':st_embarked_q,
-      'Embarked at S':st_embarked_s
+      'Sex_female':st_sex_female,
+      'Sex_male':st_sex_male,
+      'Embarked_C':st_embarked_c,
+      'Embarked_Q':st_embarked_q,
+      'Embarked_S':st_embarked_s
   }
   features = pd.DataFrame(data,index=[0])
   return features

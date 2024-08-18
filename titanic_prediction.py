@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-pip install scikit-learn
 from sklearn.linear_model import LogisticRegression
 
 st.title('Titanic Survival Prediction')
